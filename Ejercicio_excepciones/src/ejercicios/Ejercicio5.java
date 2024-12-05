@@ -22,11 +22,40 @@ public class Ejercicio5
 	
 	public static void main(String[] args) throws Exception
 	{
-		imprimeNegativo(-1);
-		//imprimeNegativo(0);
-		//imprimeNegativo(1);
-		//imprimePositivo(-1);
-		imprimePositivo(0);
-		imprimePositivo(1);
+		int i = 0;
+		
+		System.out.println("imprimeNegativo\n");
+		while (i < 6)
+		{
+			try
+			{
+				imprimeNegativo(i - 3);
+			}
+			catch (Exception e)
+			{
+				System.out.println("Error en " + (i - 3));
+			}
+			finally
+			{
+				i++;
+			}
+		}
+		i = 0;
+		System.out.println("\nimprimePositivo\n");
+		while (i < 6)
+		{
+			try
+			{
+				imprimePositivo(i - 3);
+			}
+			catch (Exception e)
+			{
+				System.out.println("Error en " + (i - 3));
+			}
+			finally
+			{
+				i++;
+			}
+		}
 	}
 }
