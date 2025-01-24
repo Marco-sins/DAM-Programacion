@@ -78,5 +78,6 @@ public class reto {
                 System.out.println(a + " * " + b + " * " + c + " = " + (a * b * c));
             }
         }
+        scan.close();
     }
 }
