@@ -1,0 +1,4 @@
+Un encriptador es una aplicación que transforma un texto haciéndolo ilegible para aquellos que desconocen el código. 
+Diseña un programa que lea un fichero de texto, lo codifique y cree un nuevo archivo con el mensaje cifrado. 
+El alfabeto de codificación se encontrará en el fichero codec.txt. 
+Un ejemplo de codificación de alfabeto es

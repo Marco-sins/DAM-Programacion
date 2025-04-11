@@ -1,0 +1,3 @@
+Nombre: Marco
+Edad: 19Nombre: Ernesto
+Edad: 18
